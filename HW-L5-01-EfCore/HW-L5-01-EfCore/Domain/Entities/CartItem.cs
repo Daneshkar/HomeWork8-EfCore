@@ -1,0 +1,13 @@
+﻿namespace Domain.Entities
+{
+    public class CartItem
+    {
+        public int Id { get; set; }
+        public int CartId { get; set; }
+        public Cart Cart { get; set; }
+        public int TedadKharid { get; set; }
+        public int BookId { get; set; }
+        public Book Book { get; set; }
+        
+    }
+}
